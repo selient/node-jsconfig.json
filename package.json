@@ -11,7 +11,11 @@
     "type": "git",
     "url": "git+https://github.com/selient/node-jsconfig.json.git"
   },
-  "keywords": [],
+  "keywords": [
+    "vscode",
+    "jsconfig",
+    "jsconfig.json"
+  ],
   "author": "Selient Chang",
   "license": "MIT",
   "dependencies": {
