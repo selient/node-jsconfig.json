@@ -1,6 +1,6 @@
 {
   "name": "node-jsconfig.json",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Quickly create a jsconfig.json for node.js development",
   "main": "index.js",
   "bin": "src/index.js",
