@@ -28,7 +28,9 @@ const configFolderPath = path.resolve(__dirname, 'config');
 
   const jsconfig = path.join(process.cwd(), 'jsconfig.json');
 
-  await writeFile(jsconfig, JSON.stringify(config.toString(), null, 2));
+  const jsonFile = JSON.stringify(JSON.parse(config.toString()), null, 4);
+
+  await writeFile(jsconfig, jsonFile);
 
   console.log('jsconfig.json successfully created');
 })();
