@@ -1,0 +1,24 @@
+{
+  "name": "node-jsconfig.json",
+  "version": "1.0.0",
+  "description": "Quickly create a jsconfig.json for node.js development",
+  "main": "index.js",
+  "bin": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/selient/node-jsconfig.json.git"
+  },
+  "keywords": [],
+  "author": "Selient Chang",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^6.3.1"
+  },
+  "bugs": {
+    "url": "https://github.com/selient/node-jsconfig.json/issues"
+  },
+  "homepage": "https://github.com/selient/node-jsconfig.json#readme"
+}
